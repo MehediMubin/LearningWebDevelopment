@@ -1,3 +1,8 @@
 h1 {
     background-color: crimson;
 }
+
+h2 {
+    display: inline;
+    background-color: cyan;
+}
