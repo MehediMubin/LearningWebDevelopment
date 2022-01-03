@@ -6,3 +6,8 @@ h2 {
     display: inline;
     background-color: cyan;
 }
+
+img {
+    height: 250px;
+    width: 400px;
+}
