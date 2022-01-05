@@ -1,13 +1,95 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  text-align: justify;
+}
+
+.Orange {
+  color: orange;
+}
+
+.flexible_container {
+  display: flex;
+}
+
 h1 {
-    background-color: crimson;
+  font-size: 40px;
 }
 
 h2 {
-    display: inline;
-    background-color: cyan;
+  font-size: 32px;
 }
 
-img {
-    height: 250px;
-    width: 400px;
+.half {
+  width: 50%;
+  margin-left: 2%;
+  margin-top: 1%;
+  padding-bottom: 50px;
+}
+
+.half img {
+  width: 90%;
+}
+
+.hire_button {
+  text-decoration: none;
+  padding: 10px 30px;
+  color: white;
+  background-image: linear-gradient(purple, tomato, purple);
+  border-radius: 5px;
+}
+
+.welcome_area {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.dream_area p {
+  width: 80%;
+}
+
+.dream_area {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+footer p {
+  text-align: center;
+}
+
+.full_stack {
+  width: 40%;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-left: 5px solid;
+  border-image: linear-gradient(yellow, blue);
+  border-image-slice: 1;
+  padding: 1%;
+  box-shadow: 10px 30px 50px gray;
+  padding-bottom: 50px;
+}
+
+.baby_web {
+  width: 40%;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-left: 5px solid;
+  border-image: linear-gradient(pink, purple);
+  padding: 1%;
+  border-image-slice: 1;
+  box-shadow: 10px 30px 50px gray;
+  padding-bottom: 50px;
+}
+
+.experience {
+  margin-left: 65px;
+}
+
+.experience_area {
+  background-image: url(images/exp-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
 }
